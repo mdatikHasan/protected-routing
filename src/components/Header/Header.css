@@ -1,0 +1,25 @@
+nav{
+    height: 4rem;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 8px;
+    font-weight: bold;
+}
+nav a.active{
+    color: red;
+}
+
+nav span{
+    color: goldenrod;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    margin-left: 30px;
+}
