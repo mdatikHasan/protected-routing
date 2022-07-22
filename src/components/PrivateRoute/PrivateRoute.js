@@ -5,7 +5,7 @@ import useFirebase from '../../hooks/useFirebase';
 
 const PrivateRoute = ({ children }) => {
     const { user, isLoading } = useFirebase();
-    console.log(user)
+    // console.log(user)
     const location = useLocation()
     if (isLoading) {
         return <Spinner animation='border' variant='primary' />
